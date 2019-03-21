@@ -1,0 +1,16 @@
+{
+    "autoload": {
+        "psr-0": {
+            "Controller": "./model/",
+            "Entity": "./model/",
+            "Mapper": "./model/",
+            "Helper": "./model/"
+        }
+    },
+    
+    "require": {
+        "twbs/bootstrap" : "4.*",
+        "fortawesome/font-awesome" : "4.*"
+        
+    }
+}
