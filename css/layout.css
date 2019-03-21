@@ -1,0 +1,133 @@
+body    {
+         box-sizing: border-box;
+         padding-top: 54px;
+/*        font-size: 12px;*/
+        }
+
+@media (min-width: 992px) {
+        body {
+            padding-top: 56px;
+            }   
+      }
+                  
+
+.frame          {   
+                border: 1px solid lightgrey;
+                padding: 4px;
+                }
+
+.line           {
+                border-top: 1px solid lightgrey;  
+                border-bottom: 1px solid lightgrey;  
+                margin: 2px;
+                padding: 2px;
+                }
+                
+.btn-hidden     {
+                 display: none;
+                }
+
+.viewText      {
+                position: absolute;
+                top: 70px;
+                left: 60px;
+                width: 175px;
+                height: 100px;
+                color: white;
+                text-align: center;
+                border: 1px dotted gray;
+                margin: 0 auto;   
+                padding: 0;
+                z-index: 50;
+                }  
+                
+#viewIcon     {
+                position: absolute;
+                top: 180px;
+                left: 135px;
+                color: white;
+                margin: 0 auto;   
+                padding: 0;
+                z-index: 30;
+                }  
+.viewStar           {
+                position: absolute;
+                top: 110px;
+                left: 60px;
+                width: 175px;
+                height: 100px;
+                color: white;
+                text-align: center;
+                border: 1px dotted gray;
+                margin: 0 auto;   
+                padding: 0;
+                z-index: 50;
+                }   
+
+#schablone      {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                margin: 0 auto;   
+                padding: 0;
+                z-index: 20;
+                }  
+#colorWin       {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 300px;
+                height: 300px;
+                margin: 0 auto;
+                margin: 0 auto;   
+                padding: 0; 
+                z-index: 10;
+                }
+#metal          {
+                position: absolute;
+                top: 0px;
+                left: 0px;  
+                width: 300px;
+                height: 300px;
+                margin: 0 auto;   
+                padding: 0;
+                background-image: url("/MarkUp/img/metall.jpg");
+                z-index: 7;
+                }
+                
+#leather        {
+                position: absolute;
+                top: 0px;
+                left: 0px;  
+                width: 300px;
+                height: 300px;
+                margin: 0 auto;   
+                padding: 0;
+                background-image: url("/MarkUp/img/leather.jpg");  
+                z-index: 5;
+                }               
+
+#farbwahl       {
+                position: relative;
+                top: 300px;
+                left: 0;               
+                margin: 0 auto;  
+                padding: 0   
+                }
+
+i              {
+                font-size: 40px;
+                text-align: center;
+                }               
+.icon           {
+                width: 40px;
+                height: 40px;
+                color: white;
+                background-color: gray;
+                text-align: center;
+               
+                }     
+ .hidden       {
+                visibility: hidden;
+                } 
+
